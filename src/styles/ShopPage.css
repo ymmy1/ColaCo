@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+nav {
+  background: #139CF8;
+  padding: 20px;
+  color: #fff;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav span {
+  font-size: 30px;
+}
+
+nav button {
+  width: 100px;
+  cursor: pointer;
+}
+
+.warning-text {
+  display: none;
+}
+
+section {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+section .cash {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .cash span {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+section .cash button {
+  cursor: pointer;
+  background: #139CF8;
+  color: #fafafa;
+  font-size: 15px;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+section .cash button:active {
+  -webkit-transform: translate(0, 10%);
+          transform: translate(0, 10%);
+}
+
+section .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px;
+}
+
+section .main .vengindImg {
+  width: 400px;
+  height: 700px;
+}
+
+section .main .action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section .main .action .soda_buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow: scroll;
+  padding: 0 50px;
+  height: 500px;
+  border: solid 5px #ae0404;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  padding: 1em;
+  line-height: 1.5em;
+  background: white;
+}
+
+section .main .action .soda_buttons::-webkit-scrollbar {
+  display: none;
+}
+
+section .main .action .soda_buttons .soda_box {
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10 and IE 11 */
+  -moz-user-select: none;
+       user-select: none;
+  /* Standard syntax */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  margin: 0 20px 20px 0;
+  -webkit-transition: 0.075s;
+  transition: 0.075s;
+  width: 400px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  cursor: pointer;
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 5px 50px -20px #000000;
+  box-shadow: 5px 5px 50px -20px #000000;
+  background: rgba(250, 250, 250, 0.5);
+}
+
+section .main .action .soda_buttons .soda_box img {
+  width: 70px;
+  height: 140px;
+  filter: drop-shadow(3px 3px 3px #666666);
+  -webkit-filter: drop-shadow(3px 3px 3px #666666);
+}
+
+section .main .action .soda_buttons .soda_box div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 20px 0;
+}
+
+section .main .action .soda_buttons .soda_box div .description {
+  color: #222;
+  font-size: 20px;
+}
+
+section .main .action .soda_buttons .soda_box div .price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: auto;
+  color: #222222;
+}
+
+section .main .action .soda_buttons .soda_box:active {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+section .main .action .cart {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+section .main .action .cart .display {
+  border: 5px solid #222222;
+  background: rgba(1, 195, 255, 0.8);
+  padding: 20px 0px;
+  text-align: center;
+  width: 340px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+section .main .action .cart .tray {
+  max-width: 1060px;
+  width: 100%;
+  border: 10px solid #D0D1CB;
+  background: #3d3d3d;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: scroll;
+}
+
+section .main .action .cart .tray::-webkit-scrollbar {
+  display: none;
+}
+
+section .main .action .cart .tray .selection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 10px;
+}
+
+section .main .action .cart .tray .selection img {
+  width: 35px;
+  height: 70px;
+  margin-right: 10px;
+}
+
+section .main .action #Buy {
+  font-size: 40px;
+  margin-top: 10px;
+  padding: 10px;
+  border: solid 5px #ae0404;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  cursor: pointer;
+  background: #e7db29;
+  opacity: 0.8;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+section .main .action #Buy:hover {
+  opacity: 1;
+}
+
+section .main .action #Buy:active {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 932px) {
+  section {
+    display: none;
+  }
+  .warning-text {
+    display: block;
+    text-align: center;
+    margin-top: 45%;
+    padding: 20px;
+    color: #444444;
+    font-style: italic;
+  }
+}
+/*# sourceMappingURL=ShopPage.css.map */

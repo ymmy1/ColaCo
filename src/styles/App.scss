@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+
+.App
+{
+    width: auto;
+    min-height: 100vh;
+    background: #cccccc url("../img/bg.jpg") no-repeat right center;
+    background-size: cover;
+    header
+    {
+        position: absolute;
+        top: 30%;  
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        text-align: center;
+        color: #ffffff;
+        h1
+        {
+            font-size: 160px;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: black;
+        }
+        h3
+        {
+            font-size: 40px;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: black;
+        }
+        h5
+        {
+            margin-top: 40px;
+            font-size: 25px;
+            color: #222222;
+        }
+        .login
+        {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            .button:first-child
+            {
+                margin-right: 10px;
+            }
+            .button 
+            {
+                -webkit-user-select: none; /* Safari */
+                -ms-user-select: none; /* IE 10 and IE 11 */
+                user-select: none; /* Standard syntax */
+                cursor: pointer;
+                position: relative;
+                padding: 10px 0;
+                width: 150px;
+                border-radius: 4px;
+                text-decoration: none;
+                text-transform: uppercase;
+                overflow: hidden;
+                color: #222222;
+                filter: hue-rotate(0deg);
+                border: 3px solid #F8F9FA;
+                transition: all 0.05s linear;
+                margin-bottom: 2px;
+                background: #F8F9FA;
+                &:active
+                {
+                    margin-top: 2px;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+}
