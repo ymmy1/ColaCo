@@ -1,5 +1,5 @@
 # <img src="https://i.imgur.com/CW7vYWm.png" alt="drawing" width="40px"/> ColaCo Vending
-## Getting Started with cocaco-vending
+## Getting Started with colaCo
 * npm install (to install node packages from package.json)
 * npx json-server --watch data/soda_api.json --port 8000 (creates HTML API)
 * npm start (Run the application)
@@ -17,9 +17,12 @@
 ![](https://i.imgur.com/qIDKAlt.png)
 ##### Make a Deposit!
 ![](https://i.imgur.com/JqfG0tQ.png)
-##### Hit Buy! & get a JSON file receipt
+##### Hit Buy!
 ![](https://i.imgur.com/bvTFQT5.png)
 ##### Get a JSON file receipt
 ![](https://i.imgur.com/CQqno1x.png)
 
 #### Admin Page
+![](https://i.imgur.com/GTEZ42p.png)
+##### Update Prices & Restock!
+![](https://i.imgur.com/X4NhJgt.png)
