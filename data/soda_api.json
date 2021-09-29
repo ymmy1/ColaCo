@@ -5,7 +5,7 @@
       "Description": "An effervescent fruity experience with hints of grape and coriander.",
       "Cost": "1.00",
       "Max_vend_qty": 100,
-      "Available_qty": 400,
+      "Available_qty": 399,
       "Src": "resized-fizz.png",
       "Bg": "#E1C903",
       "id": "0"
@@ -15,7 +15,7 @@
       "Description": "An explosion of flavor that will knock your socks off!",
       "Cost": "1.00",
       "Max_vend_qty": 100,
-      "Available_qty": 400,
+      "Available_qty": 398,
       "Src": "resized-pop.png",
       "Bg": "#C202DE",
       "id": "1"
@@ -25,7 +25,7 @@
       "Description": "A basic no nonsense cola that is the perfect pick me up for any occasion.",
       "Cost": "1.00",
       "Max_vend_qty": 200,
-      "Available_qty": 400,
+      "Available_qty": 397,
       "Src": "resized-cola.png",
       "Bg": "#DB002A",
       "id": "2"
@@ -35,7 +35,7 @@
       "Description": "Not for the faint of heart. So flavorful and so invigorating, it should probably be illegal.",
       "Cost": "1.00",
       "Max_vend_qty": 50,
-      "Available_qty": 400,
+      "Available_qty": 397,
       "Src": "resized-mega_pop.png",
       "Bg": "#20DC01",
       "id": "3"
