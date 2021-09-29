@@ -5,21 +5,21 @@
 * npm start (Run the application)
 
 ## Usage
-* Log in as Admin or Customer
+### Log in as Admin or Customer
 
 ![](https://i.imgur.com/jwBkLiz.png)
 
-### Customer Page
+#### Customer Page
 
 ![](https://i.imgur.com/LLeor4o.png)
 
-* Select a Drink!
+##### Select a Drink!
 ![](https://i.imgur.com/qIDKAlt.png)
-* Make a Deposit!
+##### Make a Deposit!
 ![](https://i.imgur.com/JqfG0tQ.png)
-* Hit Buy! & get a JSON file receipt
+##### Hit Buy! & get a JSON file receipt
 ![](https://i.imgur.com/bvTFQT5.png)
-* Get a JSON file receipt
+##### Get a JSON file receipt
 ![](https://i.imgur.com/CQqno1x.png)
 
-### Admin Page
+#### Admin Page
